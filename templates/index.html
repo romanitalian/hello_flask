@@ -1,15 +1,17 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Hello</title>
-</head>
-<body>
+{% extends 'layouts/base.html' %}
 
-<h1>Hello world</h1>
+{% block title%}
+Home page
+{% endblock%}
 
-</body>
-</html>
+
+{% block h1%}
+Главная страница
+{% endblock%}
+
+
+
+{% block body%}
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci architecto aut autem dolorum eius est hic magni numquam quaerat quo? Aliquam impedit ipsum iusto libero magnam nisi repellendus reprehenderit tenetur.</p>
+{% endblock%}
+
