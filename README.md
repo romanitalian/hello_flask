@@ -1,6 +1,19 @@
 # hello_flask
 
 
+> pip3 install flask 
+
+> pip3 install -U Flask-SQLAlchemy
+
+
+In terminal:
+
+> from app import db
+
+> db.create_all()
+
+
+
 ```
 wrk http://127.0.0.1:5000/
 Running 10s test @ http://127.0.0.1:5000/
